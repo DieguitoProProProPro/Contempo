@@ -1,0 +1,203 @@
+body {
+    background-color: #f4f4f4;
+    margin: 60px;
+}
+#Buscador {
+    border-style: solid;
+    border-color: #38761dff;
+    border-radius: 100px;
+    border-width: 5px;
+    width: 800px;
+    height: 60px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+#Buscador a {
+    text-decoration: none;
+    color: #595959;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+    padding: 20px;
+}
+#LogoContempo {
+    display: flex;
+    align-items: center;
+}
+.Logotipo {
+    width: 200px;
+    margin: 5px;
+}
+.TituloContempo {
+    margin: 5px;
+    color: #595959;
+    font-size: 30px;
+    font-family: "PT Serif", serif;
+    font-weight: lighter;
+    font-style: normal;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    font-style:normal;
+    font-weight: bold;
+    color: #595959;
+}
+.Enlace {
+    border-style: solid;
+    border-color: #38761dff;
+    border-radius: 100px;
+    border-width: 5px;
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    font-style:normal;
+    font-weight: bold;
+    text-decoration: none;
+    color: #595959;
+}
+.Banner {
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
+}
+.Parrafo {
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    font-style:normal;
+    font-weight: bold;
+    color: #595959;
+}
+.Parrafo2 {
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    font-style:normal;
+    font-weight: bold;
+    color: #595959;
+    text-align: center;
+}
+.Lista {
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    font-style:normal;
+    font-weight: bold;
+    color: #595959;
+}
+.Resaltado {
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    font-style:normal;
+    font-weight: bold;
+    color: #38761dff;
+}
+.Parrafo1 {
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    font-style:normal;
+    font-weight: bold;
+    color: #595959;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Galeria {
+    margin: 50px;
+    border-style: solid;
+    border-color: #38761dff;
+    border-radius: 50px;
+    border-width: 5px;
+    width: 250px;
+    overflow: hidden;
+}
+div.Galeria img {
+    width: 100%;
+    height: auto;
+}
+div.Galeria:hover {
+    border: 1px solid #38761dff;
+    transform: scale(1.1);
+    border-width: 6px;
+}
+div.pie {
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+}
+.GALERIAPRO{
+    display: flex;
+}
+.formulario-contacto {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario-contacto label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .formulario-contacto input,
+  .formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .formulario-contacto button {
+    width: 100%;
+    padding: 10px;
+    background-color: #38761dff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .formulario-contacto button:hover {
+    background-color: #2e5c18;
+  }
+  
